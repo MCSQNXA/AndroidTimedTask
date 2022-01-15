@@ -1,11 +1,9 @@
-package com.mcsqnxa.kuaishoutask;
+package mcsq.nxa.kuaishoutask;
 
 import android.accessibilityservice.AccessibilityService;
 import android.accessibilityservice.GestureDescription;
 import android.graphics.Path;
-import android.text.TextUtils;
 import android.view.accessibility.AccessibilityEvent;
-import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.Toast;
 
 /**
