@@ -2,13 +2,24 @@
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/black">
+
+    <Button
+            android:text="@string/yinyongxingxi"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_margin="10dp"
+            android:id="@+id/main_activity_open_yinyongxingxi"
+            style="?android:attr/buttonBarButtonStyle"/>
 
     <Button
             android:text="@string/wuzhangai"
             android:layout_width="match_parent"
             android:layout_height="67dp"
             android:layout_margin="10dp"
-            android:id="@+id/main_activity_open_wuzhangai"/>
+            android:id="@+id/main_activity_open_wuzhangai"
+            style="?android:attr/buttonBarButtonStyle"/>
 
 </LinearLayout>
