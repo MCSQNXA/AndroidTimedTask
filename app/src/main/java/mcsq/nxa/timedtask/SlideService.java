@@ -1,4 +1,4 @@
-package mcsq.nxa.kuaishoutask;
+package mcsq.nxa.timedtask;
 
 import android.accessibilityservice.AccessibilityService;
 import android.accessibilityservice.GestureDescription;

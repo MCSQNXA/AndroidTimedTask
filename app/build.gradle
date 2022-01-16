@@ -6,7 +6,7 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "mcsq.nxa.kuaishoutask"
+        applicationId "mcsq.nxa.timedtask"
         minSdkVersion 14
         targetSdkVersion 31
         versionCode 20211225
