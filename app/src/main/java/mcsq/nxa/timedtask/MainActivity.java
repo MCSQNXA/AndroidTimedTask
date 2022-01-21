@@ -1,13 +1,17 @@
 package mcsq.nxa.timedtask;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.view.View;
+import androidx.appcompat.app.AppCompatActivity;
 
-
-public class MainActivity extends Activity {
+/**
+ * @Author MCSQNXA
+ * @CreateTime 2022-01-21 21:11:08
+ * @Description
+ */
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

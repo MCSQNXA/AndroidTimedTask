@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--默认主色调颜色-->
+    <color name="main">#FF9E80</color>
+	
+	<!--颜色资源-->
+	<color name="red">#FFFF0000</color>
+	<color name="blue">#FF00BBFF</color>
+	<color name="green">#FF00FF00</color>
+	<color name="white">#FFFFFFFF</color>
+	<color name="black">#FF000000</color>
+	<color name="yellow">#00FFFF00</color>
+	<color name="orange">#FFFF6600</color>
+	<color name="purple">#FF9000FF</color>
+
+</resources>
