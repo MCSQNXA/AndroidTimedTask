@@ -3,6 +3,7 @@ package mcsq.nxa.timedtask;
 import android.accessibilityservice.AccessibilityService;
 import android.accessibilityservice.GestureDescription;
 import android.graphics.Path;
+import android.view.Gravity;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.Toast;
 
@@ -33,7 +34,7 @@ public class SlideService extends AccessibilityService {
 
     @Override
     protected void onServiceConnected() {
-        Toast.makeText(this, "模拟手势启动", Toast.LENGTH_SHORT).show();
+        this.showToast("模拟手势启动");
 
         new Thread(new Runnable() {//屏幕滑动
             @Override
@@ -71,14 +72,26 @@ public class SlideService extends AccessibilityService {
 
     @Override
     public void onInterrupt() {
-        Toast.makeText(this, "模拟手势中断", Toast.LENGTH_SHORT).show();
+        this.showToast("模拟手势中断");
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
 
-        Toast.makeText(this, "模拟手势停止", Toast.LENGTH_SHORT).show();
+        this.showToast("模拟手势停止");
+    }
+
+    /**
+     * @CreateTime 2022-01-21 21:28:27
+     * @Description
+     */
+    public synchronized void showToast(String message) {
+        Toast toast = new Toast(this);
+        toast.setGravity(Gravity.TOP, 12, 60);
+        toast.setDuration(Toast.LENGTH_SHORT);
+        toast.setText(message);
+        toast.show();
     }
 
 
