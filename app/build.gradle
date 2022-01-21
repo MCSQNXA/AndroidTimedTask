@@ -10,7 +10,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 31
         versionCode 20211225
-        versionName "20220116"
+        versionName "20220121"
 
     }
 
