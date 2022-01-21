@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 /**
  * @Author MCSQNXA
  * @CreateTime 2022-01-21 21:11:08
- * @Description
+ * @Description 主界面
  */
 public class MainActivity extends AppCompatActivity {
 
