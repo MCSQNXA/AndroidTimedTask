@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--顶部通知栏颜色-->
+        <item name="colorPrimaryDark">@color/main</item>
+        <!--顶部导航栏颜色-->
+        <item name="colorPrimary">@color/main</item>
+        <!--底部导航栏颜色-->
+        <item name="android:navigationBarColor">@color/main</item>
+        <!--控件选中后颜色(如对话框按钮颜色)-->
+        <item name="colorAccent">@color/main</item>
+        <!--未点击时EditText下划线的颜色-->
+        <item name="colorControlNormal">@color/main</item>
+        <!--控件(如EditText)选中时的颜色,默认使用colorAccent-->
+        <item name="colorControlActivated">@color/main</item>
+        <!--Button,TextView等控件文字颜色-->
+        <item name="android:textColor">@color/main</item>
+        <!--RadioButton,Checkbox等控件的颜色-->
+        <item name="android:textColorPrimaryDisableOnly">@color/main</item>
+        <!--控件按压时的色调-->
+        <item name="android:colorControlHighlight">@color/main</item>
+        <!-- 底部导航栏颜色 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- 布局渗透到通知栏 -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- 布局渗透到底部导航栏 -->
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+</resources>
