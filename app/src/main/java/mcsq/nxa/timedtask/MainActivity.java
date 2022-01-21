@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent();
                 intent.setAction(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
-                intent.setData(Uri.parse("package:" + view.getContext().getPackageName()));
+                intent.setData(Uri.parse(new StringBuilder().append("package:").append(view.getContext().getPackageName()).toString()));
                 view.getContext().startActivity(intent);
             }
         });
