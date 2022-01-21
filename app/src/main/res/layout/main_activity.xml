@@ -3,23 +3,28 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@android:color/black">
+        android:orientation="vertical">
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
 
     <Button
             android:text="@string/yinyongxingxi"
+            android:textColor="@color/white"
             android:layout_width="match_parent"
-            android:layout_height="67dp"
+            android:layout_height="47dp"
             android:layout_margin="10dp"
             android:id="@+id/main_activity_open_yinyongxingxi"
-            style="?android:attr/buttonBarButtonStyle"/>
+            android:background="@drawable/button"/>
 
     <Button
             android:text="@string/wuzhangai"
+            android:textColor="@color/white"
             android:layout_width="match_parent"
-            android:layout_height="67dp"
+            android:layout_height="47dp"
             android:layout_margin="10dp"
             android:id="@+id/main_activity_open_wuzhangai"
-            style="?android:attr/buttonBarButtonStyle"/>
+            android:background="@drawable/button"/>
 
 </LinearLayout>

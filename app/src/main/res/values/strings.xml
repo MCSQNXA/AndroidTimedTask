@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">TimedTask</string>
-    <string name="slide_service_description">模拟用户滑动屏幕</string>
-    <string name="wuzhangai">无障碍设置</string>
-    <string name="yinyongxingxi">应用信息</string>
+    <string name="slide_service_description" translatable="false">模拟用户操作屏幕</string>
+    <string name="wuzhangai" translatable="false">无障碍设置</string>
+    <string name="yinyongxingxi" translatable="false">应用信息</string>
 
 </resources>
